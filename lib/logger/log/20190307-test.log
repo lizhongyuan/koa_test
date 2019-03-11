@@ -1,0 +1,9 @@
+2019-03-07T02:17:27.420Z info root ksW55Eko - / GET | base logger test 1
+2019-03-07T02:17:27.422Z info root ksW55Eko - / GET | i am a template added by lzy
+2019-03-07T02:17:27.422Z error root ksW55Eko - / GET | error!!
+2019-03-07T02:18:46.229Z info root MhB8Sa4n - / GET | base logger test 1
+2019-03-07T02:18:46.231Z info root MhB8Sa4n - / GET | i am a template added by lzy
+2019-03-07T02:18:46.231Z error root MhB8Sa4n - / GET | error!!
+2019-03-07T02:18:59.008Z info root CGpBJ4Eh - / GET | base logger test 1
+2019-03-07T02:18:59.008Z info root CGpBJ4Eh - / GET | i am a template added by lzy
+2019-03-07T02:18:59.008Z error root CGpBJ4Eh - / GET | error!!

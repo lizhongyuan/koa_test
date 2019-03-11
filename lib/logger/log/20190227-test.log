@@ -1,0 +1,6 @@
+2019-02-27T05:50:41.550Z info root olCoKhLj - / GET | base logger test 1
+2019-02-27T05:50:41.552Z info root olCoKhLj - / GET | i am a template added by lzy
+2019-02-27T05:50:41.552Z error root olCoKhLj - / GET | error!!
+2019-02-27T05:53:51.387Z info root r9P_5Qnc - / GET | base logger test 1
+2019-02-27T05:53:51.388Z info root r9P_5Qnc - / GET | i am a template added by lzy
+2019-02-27T05:53:51.388Z error root r9P_5Qnc - / GET | error!!

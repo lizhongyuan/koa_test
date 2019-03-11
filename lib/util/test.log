@@ -1,0 +1,12 @@
+{"message":"hello","level":"info"}
+{"level":"info","message":"hello"}
+{ level: 'info',
+  message: 'hello',
+  label: 'right meow!',
+  timestamp: '2018-08-22T09:47:11.260Z',
+  [Symbol(level)]: 'info' }
+2018-08-26T05:49:27.798Z info: hello
+2018-08-26T05:59:49.327Z info: hello
+2018-08-26T06:48:44.715Z info: hello
+2018-08-26T06:49:42.921Z info: hello
+undefined info: hello
