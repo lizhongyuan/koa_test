@@ -1,12 +1,15 @@
-const Koa = require('koa');
-const app = new Koa();
+'use strict';
 
+
+const bodyparser = require('koa-bodyparser');
+const passport = require('koa-passport');
 
 const Router = require('./lib/router');
-
 const Service = require('./lib/service');
+const Koa = require('koa');
 
-// logger
+
+const app = new Koa();
 
 app.use(async (ctx, next) => {
   await next();
@@ -31,7 +34,16 @@ app.use(async ctx => {
 });
 */
 
+app.use(bodyparser());
 app.use(Router.middleware());
+
+app.keys = [ 'secret' ];
+
+// session
 Service.Init.Session(app);
+
+app.use(passport.initialize());
+app.use(passport.session());
+
 
 app.listen(3000);

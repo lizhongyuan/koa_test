@@ -9,8 +9,6 @@
   "author": "lzy",
   "license": "ISC",
   "dependencies": {
-    "@sensoro/node-logger": "^2.0.5",
-    "@sensoro/utility": "^1.1.0",
     "bluebird": "^3.5.1",
     "coffee-script": "^1.12.7",
     "config": "^1.30.0",
@@ -29,6 +27,7 @@
     "koa-session": "^5.10.1",
     "moment": "^2.22.2",
     "mongoose": "^4.4.5",
+    "passport-local": "^1.0.0",
     "pg": "^7.4.3",
     "printf": "^0.3.0",
     "request-promise": "^4.2.4",
