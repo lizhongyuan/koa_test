@@ -14,6 +14,7 @@
     "config": "^1.30.0",
     "crypto-js": "^3.1.9-1",
     "destroy-circular": "^1.1.0",
+    "egg-session": "^3.1.0",
     "express": "^4.16.3",
     "fast-json-stringify": "^1.7.2",
     "fast-safe-stringify": "^2.0.6",
