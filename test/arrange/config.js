@@ -57,8 +57,42 @@ const arrangeConfig2 = {
   ],
 };
 
+const arrangeConfig3 = {
+  type: 'node',
+  sequence: 'each',
+  tasks: [
+    {
+      type: 'leaf',
+      service: 'a',
+      function: 'a1',
+    },
+    {
+      type: 'leaf',
+      service: 'a',
+      function: 'a2',
+    },
+    {
+      type: 'node',
+      sequence: 'each',
+      tasks: [
+        {
+          type: 'leaf',
+          service: 'b',
+          function: 'b1'
+        },
+        {
+          type: 'leaf',
+          service: 'b',
+          function: 'b2'
+        },
+      ]
+    },
+  ],
+};
+
 
 module.exports = {
   arrangeConfig1,
   arrangeConfig2,
+  arrangeConfig3,
 };
